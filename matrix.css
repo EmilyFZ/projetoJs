@@ -1,0 +1,83 @@
+
+body{
+    background-color: rgb(241, 235, 235);
+}
+button:hover{
+    background-color: rgb(236, 252, 11);
+    color: rgb(17, 17, 17);
+    transition: 3s;
+    font-size: 40px;
+}
+
+
+.imagens{
+    
+    display: inline-block;
+    position:absolute;
+    display:flex;
+    padding: 100px 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+   
+button{
+    border:1px solid #25692A;
+border-radius:4px;
+display:inline-block;
+cursor:pointer;
+font-family:Verdana;
+font-weight:bold;
+font-size:40px;
+padding:10px 482px;
+text-decoration:none;
+background-color: chartreuse;
+text-align: center;
+
+}
+#foto1 {
+width: 100%
+
+}
+#estagiario {
+    width: 300px;
+    height: 400px;
+}
+
+#haker {
+    width: 300px;
+    height: 400px;
+   
+}
+
+#adolescente {
+    width: 300px;
+    height: 400px;
+}
+
+.container {
+    
+    text-align: center;
+        font-size: xx-large;
+                font-weight: bold;
+                text-align: center;
+                flex-direction: row-reverse;
+}
+                .personagens {
+                   display: inline-block;
+                            flex-direction: row-reverse;
+                            border: 10px;
+                }
+            
+
+.footer {
+    
+    width:100%;
+    text-align: center;
+    background-color:rgb(240, 239, 187);
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    max-width: 1500px;
+    font-size: 14px;
+    
+}
